@@ -4,22 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cozy Games</title>
-    <style> h1, h2 {
-        color: #4682b4;
-    }
-    ul {
-        list-style-type: none;
-        padding: 0;
-        text-align: center;
-    }
-    li {
-        background-color: #d3eafd;
-        margin: 10px 0;
-        padding: 10px;
-        border-radius: 5px;
-        text-align: center;
-    }
-    img {
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fef7e6;
+            color: #5a4b41;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #efd9b6;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #dcbf97;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #5a4b41;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #efd9b6;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+        img {
             width: 100%;
             max-width: 300px;
             border-radius: 5px;
@@ -31,29 +66,69 @@
         <h1>Cozy Games</h1>
         <p>Explora el mundo de los videojuegos para relajarte y desconectar.</p>
     </header>
+    <nav>
+        <ul>
+            <li><a href="#intro">¿Qué son?</a></li>
+            <li><a href="#ejemplos">Ejemplos</a></li>
+            <li><a href="#galeria">Imágenes</a></li>
+            <li><a href="#nusica">Música</a></li>
+        </ul>
+    </nav>
     <main>
-        <section>
+        <section id="intro">
             <h2>¿Qué son los cozy games?</h2>
             <p>Los videojuegos tranquilos son aquellos que ofrecen experiencias relajantes, con poco o nada de violencia, y permiten a los jugadores disfrutar de una atmósfera calmada.</p>
         </section>
     
-        <section>
+        <section id="ejemplos">
             <h2>Recomendaciones</h2>
             <ul>
                 <li><strong>Animal Crossing: New Horizons</strong> - Un juego de simulación de vida donde puedes construir y decorar tu isla.</li>
                 <li><strong>Stardew Valley</strong> - Un juego de simulación de granja con exploración, pesca y relaciones entre personajes.</li>
                 <li><strong>Journey</strong> - Un hermoso juego de aventura con paisajes desérticos y una historia minimalista.</li>
                 <li><strong>Flower</strong> - Un juego artístico donde controlas el viento y mueves pétalos de flores por diversos escenarios.</li>
+                <li><strong>Spiritfarer:</strong> Una historia emocional sobre ayudar a los espíritus a cruzar al otro lado.</li>
+                <li><strong>A Short Hike:</strong> Explora una montaña y disfruta de hermosos paisajes pixelados.</li>
+        <li><strong>Unpacking:</strong> Organiza una casa mientras descubres la historia detrás de los objetos.</li>
+        <li><strong>Cozy Grove:</strong> Una aventura en una isla encantada con fantasmas amistosos.</li>
+        <li><strong>Slime Rancher:</strong> Cría adorables slimes en un colorido mundo alienígena.</li>
+        <li><strong>My Time at Portia:</strong> Administra un taller, cultiva y forma lazos con los habitantes del pueblo.</li>
+        <li><strong>The Sims:</strong> Crea y administra vidas virtuales en este clásico simulador de vida.</li>
+        <li><strong>Eastshade:</strong> Explora un mundo pintoresco como un artista viajero que pinta paisajes.</li>
+        <li><strong>Garden Paws:</strong> Maneja una granja y ayuda a los habitantes de una aldea adorable.</li>
+        <li><strong>Littlewood:</strong> Reconstruye un pueblo después de salvar al mundo en esta relajante aventura.</li>
+        <li><strong>Potion Craft:</strong> Sé un alquimista y crea pociones únicas mientras atiendes tu tienda.</li>
+        <li><strong>Moonlighter:</strong> Mezcla la gestión de una tienda con aventuras en mazmorras.</li>
+        <li><strong>Donut County:</strong> Controla un agujero que traga todo a su paso en una historia divertida.</li>
+        <li><strong>Alba: A Wildlife Adventure:</strong> Ayuda a salvar una isla mientras exploras su fauna y flora.</li>
+        <li><strong>Yonder: The Cloud Catcher Chronicles:</strong> Explora un mundo abierto lleno de tareas relajantes.</li>
+        <li><strong>Harvest Moon:</strong> Un clásico de la agricultura y la vida en el campo.</li>
+        <li><strong>Terraria:</strong> Aunque puede ser desafiante, la exploración y construcción pueden ser relajantes.</li>
+        <li><strong>Ooblets:</strong> Un mundo colorido donde cultivas plantas que también bailan contigo.</li>
+        <li><strong>Graveyard Keeper:</strong> Administra un cementerio en este peculiar simulador con humor oscuro.</li>
+        <li><strong>Forager:</strong> Construye, explora y recolecta recursos en un mundo encantador.</li>
+        <li><strong>Dorf Romantik:</strong> Un relajante juego de rompecabezas donde construyes paisajes hermosos.</li>
+        <li><strong>Grow: Song of the Evertree:</strong> Crea y explora mundos mágicos mientras ayudas a la naturaleza a florecer.</li>
+        <li><strong>Pikuniku:</strong> Una aventura colorida con rompecabezas y un toque de humor absurdo.</li>
             </ul>
         </section>
     
-        <section>
+        <section id="galeria">
             <h2>Galería de imágenes</h2>
             <p>Imágenes de algunos de estos juegos:</p>
-            <img src="https://media.wired.com/photos/5fa5be20daa25f804cdbd2d9/1:1/w_1080,h_1080,c_limit/games_culture_anch-fall.jpg" alt="Animal Crossing">
+            <img src="https://i.pinimg.com/736x/b4/de/f2/b4def2f5f409d87602a45d8ee67ed349.jpg" alt="Animal Crossing">
             <img src="https://m.media-amazon.com/images/I/81nnNeuXlgL.jpg" alt="Stardew Valley">
+            <img src="https://i0.wp.com/todasgamers.com/wp-content/uploads/2016/07/journey-game-screenshot-20.jpg?resize=657%2C369&ssl=1" alt="Journey">
+            <img src="https://assets2.ignimgs.com/2013/11/13/flower1112131280jpg-885176_160w.jpg?width=1280" alt="Flower">
+            <img src="https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/21766862/Spiritfarer_Launch_Trailer_SCREENSHOTS_04__1_.png?quality=90&strip=all&crop=0%2C6.6448516579407%2C100%2C93.077370564282&w=1200" alt="Spiritfarer">
+            <img src="https://store-images.s-microsoft.com/image/apps.36534.13662153058855583.d07f97b6-b2ec-4a4c-9bce-a92d676f427c.b59a02a5-63b7-4861-aad9-f9764a700061?q=90&w=320&h=180" alt="A short hike">
+            
         </section>
+
+        <section id="musica">
+            <h2>Música</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/1wOAhRAqb40?si=obE3K3N7NIL_PsT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
     </main>
 </body>
 </html>
